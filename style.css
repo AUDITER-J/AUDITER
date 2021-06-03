@@ -1,0 +1,151 @@
+*{ margin: 0;padding: 0;
+font-family: 'josefin Sans',sans-serif; }
+
+
+header {
+	width: 100%;
+	height: 60vh;
+	background-image: url( 5.jpg); background-size: 100% 100%;}
+  
+
+
+.navsection {
+	width: 100%;height: 20vh;
+	display: flex; justify-content: space-around; 
+	 align-items: center;
+	 background: rgba(0,0,0,0,2) ; 
+	
+}
+.logo {
+	width: 50%;
+	color: #fff;
+	background-image:linear-gradient(#8d98e3 40%,#854fee 60%);
+	padding-left: 100px;
+	box-sizing: border-box
+	;border-radius: 4px;
+	outline: none;}
+
+.logo h1{font-size: 3.5rem;
+	animation: aagepiche 2s linear infinite;
+	animation-direction: alternate;
+
+}
+
+@keyframes aagepiche{
+	from{padding-left: 40px;}
+	to{padding-right: 40px;}
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-size:23px;
+	position: relative; }
+ { width: 100%;
+height: 70vh;background color: blue;  }
+
+nav a:first-child { color:#00b894; font-size:23px; }
+
+
+
+main { width: 100%;
+height: 40vh;
+display: flex;
+justify-content: center;
+align-items: center; text-align: center;}
+
+
+
+
+section h3{ margin: 15px 0 15px 0; font-size: 45px;
+	font-weight: 200; letter-spacing: 3px;
+	color: white;
+text-shadow: 2px 1px 3px black; }
+
+section h2 { font size: 85px;
+font-weight: 700;color: blue;
+text-shadow: 1px 2px 3px white;text-transform: uppercase; }
+
+section p { 
+text-transform: uppercase;font-size: 25px;
+word-spacing: 2px;
+margin-bottom: 25px;
+color: gold;text-shadow: 2px 1px 3px black; }
+
+section a {
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font width: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+section .btnone {
+	background: #fff;
+	color: #000;
+}
+section .btntwo {
+	background: #00b894;
+	color: white;
+}
+
+
+
+
+
+
+
+
+header.file { width: 100%;
+	height: 40vh;
+	background-image: url( 1.jpg); background-size: 100% 100%; }
+{ width: 100%;
+height: 40vh;
+display: flex;
+justify-content: center;align-items: center; text-align: center;}
+
+	section h4{ margin: 15px 0 15px 0; font-size: 39px;
+	font-weight: 100; letter-spacing: 3px;
+	color: black;
+text-shadow: 3px 1px 3px black; }
+
+
+section h5 { font size: 25px;
+font-weight: 700;color: orange;
+text-shadow: 1px 2px 3px black;text-transform: uppercase; }
+
+ section h6 { 
+text-transform: uppercase;font-size: 40px;
+word-spacing: 2px;
+margin-bottom: 25px;
+color: skyblue;text-shadow: 3px 2px 3px black; }
+ 
+
+
+
+
+
+
+.change_content:after {
+ content: ''; 
+animation: changetext 10s infinite linear; color: #00b894;}
+ 
+ @keyframes changetext{
+   0%{content:"REPOTS MEMO";}
+   20%{content:"SAHKARI SANSTA";}
+   35%{content:"ABHINAV SANSTA";}
+   60%{content:"AYODOGIK SANSTA";}
+   80%{content:"SUSHIKSIT BEROJGAR";}
+   100%{content:"PAAT SANSTA ";} 
+
+    
+
